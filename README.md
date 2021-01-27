@@ -22,7 +22,7 @@ The following list provides information about the currently supported features:
 
 ## Usage
 The following list aims to document the currently available endpoints and their use cases:
- - `api/v1/albums?band-name={band-name}`- requires: **band-name** (String)
+ - `GET api/v1/albums?band-name={band-name}`- requires: **band-name** (String)
 
 	Pass a **band-name** and retrieve their discography. An example response body is attached below.
     <div style="text-align:center"><img src="https://i.imgur.com/O9kifl8.png" /></div>
