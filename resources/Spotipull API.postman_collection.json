@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "df26dc16-db3f-4e1d-92f1-220419c7b103",
+		"name": "Spotipull API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{hostname}}/",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/v1/albums",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{hostname}}/api/v1/albums?band-name=Queen",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"albums"
+					],
+					"query": [
+						{
+							"key": "band-name",
+							"value": "Queen"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
