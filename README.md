@@ -9,6 +9,8 @@ Getting the service up and running is a simple operation that can be done in a m
  - Log into your Spotify account and then visit the [developers dashboard](https://developer.spotify.com/dashboard/).
  - Create an application and take note of the **Client ID** and the **Client Secret** as you'll be needing both.
  - Edit your virtual host file and add these values as environment variables. An example for Apache would look like this:
+
+
    <div style="text-align:center"><img src="https://i.imgur.com/DHauDRa.png" /></div>
  - Once you're done, save the file, restart the server and you're good to go!
 
