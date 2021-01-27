@@ -6,6 +6,7 @@ This is SpotiPull, a simple integration of the Spotify v1 API on top of another 
 ## Installing
 Getting the service up and running is a simple operation that can be done in a minute or two.
 
+ - Change to the root of the project and get the dependencies by executing the following command: `composer install`
  - Log into your Spotify account and then visit the [developers dashboard](https://developer.spotify.com/dashboard/).
  - Create an application and take note of the **Client ID** and the **Client Secret** as you'll be needing both.
  - Edit your virtual host file and add these values as environment variables. An example for Apache would look like this:
