@@ -15,7 +15,7 @@ Getting the service up and running is a simple operation that can be done in a m
  - Once you're done, save the file, restart the server and you're good to go!
 
 ## Features
-The following list provides a set of examples for each available feature.
+The following list provides information about the currently supported features:
 
  - Get the discography for an artist.
 
